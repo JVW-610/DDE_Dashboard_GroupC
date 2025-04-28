@@ -183,7 +183,7 @@ with tabs[0]:
         st.markdown(f"**Percentile in Sector:** {stats['aagr_pct']:.1f}th")
 
     with col4:
-        st.subheader("Company Age (Young = Good)")
+        st.subheader("Company Age")
         st.markdown(f"**Company Age:** {age_years} years")
         st.markdown(f"**Sector Average Age:** {stats['age_avg']:.1f} years")
         st.markdown(f"**Sector Median Age:** {stats['age_med']:.1f} years")
